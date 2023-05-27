@@ -7,7 +7,7 @@ import { action, originals, animeMovies, Comedy, Horror, trending, Romance } fro
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">   
       <Navbar />
       <Banner />
       <Rowpost url={originals} title="Netflix Orginals" />
