@@ -32,7 +32,7 @@ function Banner() {
       clearInterval(intervalRef.current);
     };
   }, [movies]);
-
+ 
   const currentMovie = movies[currentMovieIndex];
 
   return (
@@ -61,7 +61,7 @@ function Banner() {
           <Link to={currentMovie ? `/video/${currentMovie.id}` : null}>
             <button className="button">Play</button>
           </Link>
-          <button className="button">My List</button>
+          <button className="button">My Listss</button>
         </div>
       </div>
       <div className="fade_bottom"></div>
